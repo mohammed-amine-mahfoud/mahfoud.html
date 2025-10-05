@@ -1,0 +1,102 @@
+.animated-text {
+  font-size: 3em;
+  color: #000000;
+  animation: fadeSlideUp 3s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Animation Keyframes */
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body {
+            background-image: url('rocky-red-mountain-dnjmluhewpadhdzg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }  
+body {
+    background-image: url('rocky-red-mountain-dnjmluhewpadhdzg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Petrov Sans 2', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: rgba(58, 23, 21, 0.95);
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(87, 2, 2, 0.2);
+    width: 350px;
+    color: #000000;
+    font-size: 1.1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background: #413332;
+    color: #000000;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background: #f03131;
+    color: #3a100e;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #63170d;
+    color: #201f1f;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 0;
+  width: 100%;
+  background: #f03131;
+  color: #3a100e;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.button-link:hover {
+  background: #63170d;
+  color: #fff;
+}
